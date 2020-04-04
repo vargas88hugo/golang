@@ -21,7 +21,7 @@ func main() {
 
 	switch a {
 	case 1:
-		fallthrough
+		fallthrough // This is a keyword for continue the evaluation
 	case 2:
 		fallthrough
 	case 3:

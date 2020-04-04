@@ -4,17 +4,22 @@ import "fmt"
 
 func main() {
 	/*
-	   var firstName, lastName string
-	   firstName = "Hugo"
-	   lastName = "Vargas"
+		An example of regular declaration
+		var firstName, lastName string
+		firstName = "Hugo"
+		lastName = "Vargas"
 	*/
 
+	// dynamic way to declare a variable and assign its
+	// data type instantly
 	firstName, lastName := "Hugo", "Vargas"
 
 	firstName = "Mairelys"
 
 	fmt.Println(firstName, lastName)
 
+	// Regular way to declare a variable, first assigning
+	// type and then value
 	var a int
 	var b int8
 
