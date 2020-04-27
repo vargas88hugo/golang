@@ -1,4 +1,4 @@
-// Fetch prints the content found at a URL with io.Copy
+// Fetch prints the content found at a URL with io.Copy and check if it has http
 package main
 
 import (
